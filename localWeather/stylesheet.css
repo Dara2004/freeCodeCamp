@@ -1,0 +1,41 @@
+body {
+    background-image: url(spring.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.header h1,
+.header h2,
+.header h3,
+.api {
+    color: floralwhite;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    font-family: 'Lato', sans-serif;
+}
+
+.header h1 {
+    margin-top: 10%;
+    text-transform: uppercase;
+}
+
+.dropdown button {
+    margin-top: 3%;
+}
+
+.dropdown {
+    text-align: center;
+}
+
+.api {
+    margin-top: 3%;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.api img {
+    width: 80px;
+    height: 80px;
+}
