@@ -1,0 +1,90 @@
+body {
+    background-color: #00c5cd;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.clock {
+    display: block;
+    width: 272px;
+    height: 380px;
+    background: #e6be8a;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+#demo {
+    text-align: center;
+    margin-top: 60%;
+}
+
+#session,
+#break {
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    margin-top: 100px;
+}
+
+p {
+    font-size: 25px;
+    /*    font-weight: bold;*/
+}
+
+.plus,
+.minus {
+    /*
+    margin-left: auto;
+margin-right: auto;
+text-align: center;
+color: aliceblue;
+*/
+}
+
+button {
+    font-size: 25px;
+    font-family: 'Gloria Hallelujah', cursive;
+    top: 400px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#start,
+#stop {
+    display: inline-block;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px 20px;
+    /*    background-color: #ff4500;*/
+}
+
+#start {
+    background-color: #00ff00;
+}
+
+#stop {
+    margin-left: 20px;
+    background-color: #ff4500;
+}
